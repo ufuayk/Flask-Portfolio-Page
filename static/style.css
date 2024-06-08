@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    user-select: none;
+}
+
+.container {
+    text-align: center; 
+}
+
+h1 {
+    transition: transform 0.5s ease;
+    font-size: 3.75em;
+    margin-bottom: 0em;
+}
+
+h1:hover{
+    transform: translateX(-0%) scale(1.1);
+}
+
+p {
+    transition: transform 0.5s ease;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+p:hover{
+    transform: translateX(-0%) scale(1.1);
+}
+
+.github-icon {
+    transform: translateX(-50%);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    cursor: pointer;
+}
+
+/* YourName Color */
+
+.highlight {
+    color: #267CB5;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.08em;
+    }
+
+    .github-icon {
+        width: 20px;
+        height: 20px;
+    }
+}

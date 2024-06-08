@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourName's Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Hi 👋, I'm <span class="highlight">YourName</span></h1> <!-- Here you can replace ‘YourName’ with your own name. -->
+            <p>Python, JavaScript & Golang Enthusiast</p> <!-- Here you can write the software languages you are experienced in. -->
+        </div>
+        <a href="{{ url_for('github') }}">
+            <img src="{{ url_for('static', filename='github-icon.png') }}" alt="GitHub" class="github-icon">
+        </a>
+    </div>
+</body>
+</html>
