@@ -2,6 +2,9 @@
 
 Single page, simple portfolio site example developed using Python and Flask.
 *The truth is; Python was not needed for this project. It can be done easily with HTML + CSS.. So why did I do it with Python? I don't know. Lol.*
+
+![image](https://raw.githubusercontent.com/NotYello/Flask-Portfolio-Page/main/screenshots/screenshot.png)
+
 ## 📋 Requirements
 
 • flask
